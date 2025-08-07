@@ -4,11 +4,9 @@ export default function Home() {
       <header className="bg-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
           <h1 className="text-xl font-bold text-blue-700">SapphireVirtual</h1>
+            <a href="#" className="text-gray-700 hover:text-blue-600 absolute left-100">About Us</a>
           <nav className="space-x-6 hidden md:flex">
-            <a href="#" className="text-gray-700 hover:text-blue-600">Solutions</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600">Partners</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600">Company</a>
-            <a href="#" className="bg-blue-700 text-white text-center py-1 px-2 rounded">Contact Us</a>
+            <a href="#" className="bg-blue-700 text-white text-center py-2 px-4 rounded-2xl">Contact Us</a>
           </nav>
           <button className="md:hidden text-blue-600">☰</button>
         </div>
