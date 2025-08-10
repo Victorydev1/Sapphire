@@ -22,11 +22,12 @@ const Page = () => {
     <div className="max-w-7xl mx-auto px-4 py-8">
       <nav className="text-sm mb-6 text-gray-500">
         <ol className="flex flex-wrap gap-2">
-          <li>
-            <a href="/station" className="hover:text-blue-600">
-              Shop
-            </a>
-          </li>
+           <button
+      onClick={() => router.push('/station/')}
+      className="text-black hover:text-blue-500"
+    >
+      Station
+    </button>
           <li>/</li>
           <li className="text-gray-800">{product.name}</li>
         </ol>
