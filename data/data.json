@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Stapler",
         "category": "School supplies",
-        "description": "protable for use",
+        "description": "A stapler is a mechanical device that joins sheets of paper or other materials by driving a thin metal staple through them and bending the staple's ends to secure the materials. It's a common office supply, but staplers also have applications in construction, medicine, and more. ",
         "price": "35000",
         "image": "/stapler.jpeg"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "mathematical set",
         "category": "School supplies",
-        "description": "protable for use",
+        "description": "In mathematics, a set is a well-defined collection of distinct objects, called elements or members. These objects can be anything: numbers, symbols, points in space, lines, other geometric shapes, or even other sets. Sets are fundamental in mathematics and are used to define various mathematical structures and study relationships between objects. ",
         "price": "1500",
         "image": "/maths-set.webp"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "name": "Sticky Notes",
         "category": "School supplies",
-        "description": "protable for use",
+        "description": "Sticky notes are small pieces of paper with a lightly adhesive strip on the back, allowing them to be temporarily attached to various surfaces. They are commonly used for leaving reminders, short messages, or making to-do lists. The adhesive allows them to be easily attached, removed, and re-attached without leaving residue. ",
         "price": "1500",
         "image": "/sticking-notes.webp"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "name": "Acrylic Paint Maries",
         "category": "School supplies",
-        "description": "protable for use",
+        "description": "Acrylic paint is a fast-drying synthetic paint made from pigment particles suspended in an acrylic polymer emulsion. It's water-based, making it easy to clean up with soap and water, and versatile for use on various surfaces like canvas, paper, and wood. Once dry, it becomes waterproof and flexible. ",
         "price": "1500",
         "image": "/acrylic-paint.jpeg"
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "name": "M&G Coloured Pencil",
         "category": "School supplies",
-        "description": "protable for use",
+        "description": "M&G colored pencils are a popular choice for artists and hobbyists, known for their smooth, vibrant colors and variety of sets. They are available in different pack sizes, from 12 to 48 colors, and are suitable for both children and adults. M&G colored pencils are often described as being made from natural, eco-friendly, and non-toxic materials. ",
         "price": "1500",
         "image": "/M&G.jpeg"
     }

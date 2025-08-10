@@ -7,16 +7,6 @@ const Station = () => {
   const router = useRouter();
    
   return (
-    // <div className='flex gap-20 w-auto'>
-    //     {data.map((item) =>(
-    //         <div key={item.id} className='text-center bg-[#fff] text-black p-15 '>
-    //             <h1>{item.id}</h1>
-    //             <p>{item.name}</p>
-    //             <p>{item.category}</p>
-    //             <p>{item.description}</p>
-    //         </div>
-    //     ))}
-    // </div>
     <div className="bg-gray-100 min-h-screen py-10 px-4">
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
         Our Products
@@ -41,7 +31,6 @@ const Station = () => {
               <h2 className="text-lg font-semibold text-gray-800">{item.name}</h2>
               <p className="text-sm text-gray-500 mb-2">{item.category}</p>
               <p className="text-gray-600 text-sm line-clamp-2">
-                {item.description}
               </p>
 
               <div className="mt-4 flex items-center justify-between">

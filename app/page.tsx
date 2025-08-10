@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="font-sans antialiased">
@@ -6,12 +8,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center relative">
           <h1 className="text-xl font-bold text-blue-700">SapphireVirtual</h1>
 
-          <a
-            href="/station"
-            className="text-gray-700 hover:text-blue-600 sm:inline"
-          >
-            Station
-          </a>
+          <Link href="/station/" className="text-black hover:text-blue-500 md:flex">Go to station</Link>
+
+            
 
           <nav className="space-x-6 hidden md:flex">
             <a
