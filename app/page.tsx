@@ -3,27 +3,24 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="font-sans antialiased">
-  
       <header className="bg-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center relative">
           <h1 className="text-xl font-bold text-blue-700">SapphireVirtual</h1>
 
-          <Link href="/station/" className="text-black hover:text-blue-500 md:flex">Go to station</Link>
-
-            
+          <Link href="/station/" className="text-black hover:text-blue-500 md:flex">
+            Go to station
+          </Link>
 
           <nav className="space-x-6 hidden md:flex">
-            <a
-              href="#"
+            <Link
+              href="/contact"
               className="bg-blue-700 text-white text-center py-2 px-4 rounded-2xl"
             >
               Contact Us
-            </a>
+            </Link>
           </nav>
 
-          <button className="md:hidden text-blue-600 text-2xl">
-            ☰
-          </button>
+          <button className="md:hidden text-blue-600 text-2xl">☰</button>
         </div>
       </header>
 
@@ -73,31 +70,52 @@ export default function Home() {
           <div>
             <h4 className="font-semibold mb-2">Company</h4>
             <ul className="space-y-1 text-sm">
-              <li><a href="#" className="hover:underline">About</a></li>
-              <li><a href="#" className="hover:underline">Careers</a></li>
-              <li><a href="#" className="hover:underline">Blog</a></li>
+              <li>
+                <Link href="/about" className="hover:underline">About</Link>
+              </li>
+              <li>
+                <Link href="/careers" className="hover:underline">Careers</Link>
+              </li>
+              <li>
+                <Link href="/blog" className="hover:underline">Blog</Link>
+              </li>
             </ul>
-            
           </div>
           <div>
             <h4 className="font-semibold mb-2">Solutions</h4>
             <ul className="space-y-1 text-sm">
-              <li><a href="#" className="hover:underline">Device Financing</a></li>
-              <li><a href="#" className="hover:underline">Protection</a></li>
+              <li>
+                <Link href="/device-financing" className="hover:underline">
+                  Device Financing
+                </Link>
+              </li>
+              <li>
+                <Link href="/protection" className="hover:underline">
+                  Protection
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-2">Support</h4>
             <ul className="space-y-1 text-sm">
-              <li><a href="#" className="hover:underline">Help Center</a></li>
-              <li><a href="#" className="hover:underline">Contact</a></li>
+              <li>
+                <Link href="/help" className="hover:underline">Help Center</Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:underline">Contact</Link>
+              </li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-2">Legal</h4>
             <ul className="space-y-1 text-sm">
-              <li><a href="#" className="hover:underline">Privacy Policy</a></li>
-              <li><a href="#" className="hover:underline">Terms of Service</a></li>
+              <li>
+                <Link href="/privacy" className="hover:underline">Privacy Policy</Link>
+              </li>
+              <li>
+                <Link href="/terms" className="hover:underline">Terms of Service</Link>
+              </li>
             </ul>
           </div>
         </div>
