@@ -1,15 +1,23 @@
-import Link from "next/link";
+'use client';
+
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 export default function Home() {
+const router = useRouter();
+
   return (
     <main className="font-sans antialiased">
       <header className="bg-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center relative">
           <h1 className="text-xl font-bold text-blue-700">SapphireVirtual</h1>
 
-          <Link href="/station/" className="text-black hover:text-blue-500 md:flex">
-            Go to station
-          </Link>
+         <button
+      onClick={() => router.push('/station/')}
+      className="text-black hover:text-blue-500"
+    >
+      Station
+    </button>
 
           <nav className="space-x-6 hidden md:flex">
             <Link
