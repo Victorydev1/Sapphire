@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
     <main className="font-sans antialiased">
@@ -9,10 +7,10 @@ export default function Home() {
           <h1 className="text-xl font-bold text-blue-700">SapphireVirtual</h1>
 
           <a
-            href="#"
-            className="text-gray-700 hover:text-blue-600 hidden sm:inline"
+            href="/station"
+            className="text-gray-700 hover:text-blue-600 sm:inline"
           >
-            About Us
+            Station
           </a>
 
           <nav className="space-x-6 hidden md:flex">
@@ -80,12 +78,7 @@ export default function Home() {
               <li><a href="#" className="hover:underline">Careers</a></li>
               <li><a href="#" className="hover:underline">Blog</a></li>
             </ul>
-            <Link
-              href="/station"
-              className="bg-blue-700 text-white text-center py-2 px-4 rounded-2xl"
-            >
-              CLick me
-            </Link>
+            
           </div>
           <div>
             <h4 className="font-semibold mb-2">Solutions</h4>
