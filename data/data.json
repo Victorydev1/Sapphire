@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "UHU gum",
+        "category": "Art supplies",
+        "description": "Uhu Adhesive Gum 20ML is a solvent based liquid adhesives that comes in small tube. It creates a strong bond between a variety of materials, including paper, cardboard, wood, metal, plastic, ceramics, and more. The glue dries clear, making it ideal for bonding items where you don't want a visible seam.",
+        "price": "30000",
+        "image": "/uhu-gum.jpeg"
+    },
+     {
+        "id": 2,
+        "name": "paint brush",
+        "category": "Art",
+        "image": "/paint-brush.jpeg",
+        "description": "A paintbrush is a brush used to apply paint or ink. A paintbrush is usually made by clamping bristles to a handle with a ferrule. They are available in various sizes, shapes, and materials. Thicker ones are used for filling in, and thinner ones are used for details.",
+        "price": "5000"
+    },
+     {
+        "id": 3,
+        "name": "Pen stand",
+        "category": "Office Supplies",
+        "description": "A pen stand is an item of utility as it is used to store pens, pencils or other small stationary items. A pen stand can be spherical, hexagonal, rectangular, pentagonal or octagonal in shape but designs in an appropriate leaving space to keep things inside it.",
+        "price": "32000",
+        "image": "/pen-stand.webp"
+    },
+     {
+        "id": 4,
+        "name": "art palette",
+        "category": "Art supplies",
+        "description": "A palette is a surface on which a painter arranges and mixes paints. A palette is made of materials such as wood, paper, glass, ceramic or plastic, and can vary greatly in size and shape.",
+        "price": "3000",
+        "image": "/palette.jpeg"
+    },
+     {
+        "id": 5,
+        "name": "Stapler",
+        "category": "School supplies",
+        "description": "protable for use",
+        "price": "35000",
+        "image": "/stapler.jpeg"
+    },
+     {
+        "id": 6,
+        "name": "mathematical set",
+        "category": "School supplies",
+        "description": "protable for use",
+        "price": "1500",
+        "image": "/maths-set.webp"
+    },
+     {
+        "id": 7,
+        "name": "Sticky Notes",
+        "category": "School supplies",
+        "description": "protable for use",
+        "price": "1500",
+        "image": "/sticking-notes.webp"
+    },
+     {
+        "id": 8,
+        "name": "Acrylic Paint Maries",
+        "category": "School supplies",
+        "description": "protable for use",
+        "price": "1500",
+        "image": "/acrylic-paint.jpeg"
+    },
+     {
+        "id": 9,
+        "name": "M&G Coloured Pencil",
+        "category": "School supplies",
+        "description": "protable for use",
+        "price": "1500",
+        "image": "/M&G.jpeg"
+    }
+]

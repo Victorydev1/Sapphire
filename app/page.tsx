@@ -1,12 +1,11 @@
 export default function Home() {
   return (
     <main className="font-sans antialiased">
-      {/* Header */}
+  
       <header className="bg-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center relative">
           <h1 className="text-xl font-bold text-blue-700">SapphireVirtual</h1>
 
-          {/* About Us — hidden on very small screens */}
           <a
             href="#"
             className="text-gray-700 hover:text-blue-600 hidden sm:inline"
@@ -14,7 +13,6 @@ export default function Home() {
             About Us
           </a>
 
-          {/* Desktop Nav */}
           <nav className="space-x-6 hidden md:flex">
             <a
               href="#"
@@ -24,14 +22,12 @@ export default function Home() {
             </a>
           </nav>
 
-          {/* Mobile Menu Button */}
           <button className="md:hidden text-blue-600 text-2xl">
             ☰
           </button>
         </div>
       </header>
 
-      {/* Hero Section */}
       <section className="bg-gray-50 py-16 text-center px-4">
         <h2 className="text-3xl sm:text-4xl md:text-5xl text-black font-semibold mb-6">
           All in One Smart, Secure Platform
@@ -43,7 +39,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Services Section */}
       <section className="bg-gray-50 py-12">
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 px-4">
           <div className="bg-blue-700 text-white text-center py-6 rounded">
@@ -61,7 +56,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Companies Section */}
       <section className="bg-white py-16 text-center">
         <h3 className="text-lg sm:text-xl md:text-2xl text-black font-semibold mb-6">
           Trusted by Industry Leaders
@@ -75,7 +69,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-gray-900 text-white py-10">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           <div>
@@ -111,6 +104,15 @@ export default function Home() {
         <div className="mt-8 text-center text-xs sm:text-sm text-gray-400">
           &copy; 2025 Sapphire Virtual. All rights reserved.
         </div>
+        <nav className="space-x-6 md:text-center">
+            <a
+              href="/station"
+              className="bg-blue-700 text-white text-center py-2 px-4 rounded-2xl"
+            >
+              CLick me
+            </a>
+          </nav>
+
       </footer>
     </main>
   );

@@ -1,0 +1,34 @@
+[
+     {
+        "id": 2,
+        "name": "paint brush",
+        "category": "Art",
+        "image": "/paint-brush.jpeg",
+        "description": "A paintbrush is a brush used to apply paint or ink. A paintbrush is usually made by clamping bristles to a handle with a ferrule. They are available in various sizes, shapes, and materials. Thicker ones are used for filling in, and thinner ones are used for details.",
+        "price": "5000"
+    },
+     {
+        "id": 4,
+        "name": "art palette",
+        "category": "Art supplies",
+        "description": "A palette is a surface on which a painter arranges and mixes paints. A palette is made of materials such as wood, paper, glass, ceramic or plastic, and can vary greatly in size and shape.",
+        "price": "3000",
+        "image": "/palette.jpeg"
+    },
+      {
+        "id": 8,
+        "name": "Acrylic Paint Maries",
+        "category": "School supplies",
+        "description": "protable for use",
+        "price": "1500",
+        "image": "/acrylic-paint.jpeg"
+    },
+     {
+        "id": 9,
+        "name": "M&G Coloured Pencil",
+        "category": "School supplies",
+        "description": "protable for use",
+        "price": "1500",
+        "image": "/M&G.jpeg"
+    }
+]

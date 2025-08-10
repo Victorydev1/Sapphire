@@ -1,0 +1,63 @@
+"use client";
+import React, { useEffect, useState } from 'react'
+import data from "@/data/data.json"
+import { useParams, useRouter } from 'next/navigation'
+
+const Station = () => {
+  const router = useRouter();
+   
+  return (
+    // <div className='flex gap-20 w-auto'>
+    //     {data.map((item) =>(
+    //         <div key={item.id} className='text-center bg-[#fff] text-black p-15 '>
+    //             <h1>{item.id}</h1>
+    //             <p>{item.name}</p>
+    //             <p>{item.category}</p>
+    //             <p>{item.description}</p>
+    //         </div>
+    //     ))}
+    // </div>
+    <div className="bg-gray-100 min-h-screen py-10 px-4">
+      <h1 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
+        Our Products
+      </h1>
+
+      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 max-w-7xl mx-auto">
+        {data.map((item) => (
+          <div
+            key={item.id}
+            onClick={() => router.push(`/station/${item.id}`)}
+            className="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300"
+          >
+            <div className="h-48 bg-gray-200 flex items-center justify-center">
+              <img
+                src={item.image}
+                alt={item.name}
+                className="h-full w-full object-cover"
+              />
+            </div>
+
+            <div className="p-5">
+              <h2 className="text-lg font-semibold text-gray-800">{item.name}</h2>
+              <p className="text-sm text-gray-500 mb-2">{item.category}</p>
+              <p className="text-gray-600 text-sm line-clamp-2">
+                {item.description}
+              </p>
+
+              <div className="mt-4 flex items-center justify-between">
+                <span className="text-xl font-bold text-blue-600">
+                  ₦{item.price}
+                </span>
+                <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Station
