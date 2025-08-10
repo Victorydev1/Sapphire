@@ -1,11 +1,11 @@
 "use client";
-import React, { useEffect, useState } from 'react'
-import data from "@/data/data.json"
-import { useParams, useRouter } from 'next/navigation'
+import data from "@/data/data.json";
+import { useRouter } from "next/navigation";
+import Image from "next/image"; 
 
 const Station = () => {
   const router = useRouter();
-   
+
   return (
     <div className="bg-gray-100 min-h-screen py-10 px-4">
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
@@ -17,21 +17,22 @@ const Station = () => {
           <div
             key={item.id}
             onClick={() => router.push(`/station/${item.id}`)}
-            className="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300"
+            className="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300 cursor-pointer"
           >
-            <div className="h-48 bg-gray-200 flex items-center justify-center">
-              <img
+            <div className="h-48 bg-gray-200 flex items-center justify-center relative">
+              <Image
                 src={item.image}
                 alt={item.name}
-                className="h-full w-full object-cover"
+                fill 
+                className="object-cover"
               />
             </div>
 
             <div className="p-5">
-              <h2 className="text-lg font-semibold text-gray-800">{item.name}</h2>
+              <h2 className="text-lg font-semibold text-gray-800">
+                {item.name}
+              </h2>
               <p className="text-sm text-gray-500 mb-2">{item.category}</p>
-              <p className="text-gray-600 text-sm line-clamp-2">
-              </p>
 
               <div className="mt-4 flex items-center justify-between">
                 <span className="text-xl font-bold text-blue-600">
@@ -49,4 +50,4 @@ const Station = () => {
   );
 };
 
-export default Station
+export default Station;
