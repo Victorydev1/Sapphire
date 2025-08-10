@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="font-sans antialiased">
@@ -78,6 +80,12 @@ export default function Home() {
               <li><a href="#" className="hover:underline">Careers</a></li>
               <li><a href="#" className="hover:underline">Blog</a></li>
             </ul>
+            <Link
+              href="/station"
+              className="bg-blue-700 text-white text-center py-2 px-4 rounded-2xl"
+            >
+              CLick me
+            </Link>
           </div>
           <div>
             <h4 className="font-semibold mb-2">Solutions</h4>
@@ -104,15 +112,6 @@ export default function Home() {
         <div className="mt-8 text-center text-xs sm:text-sm text-gray-400">
           &copy; 2025 Sapphire Virtual. All rights reserved.
         </div>
-        <nav className="space-x-6 md:text-center">
-            <a
-              href="/station"
-              className="bg-blue-700 text-white text-center py-2 px-4 rounded-2xl"
-            >
-              CLick me
-            </a>
-          </nav>
-
       </footer>
     </main>
   );
