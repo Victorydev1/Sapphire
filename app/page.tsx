@@ -1,23 +1,11 @@
-'use client';
-
-import { useRouter } from 'next/navigation';
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Home() {
-const router = useRouter();
-
   return (
     <main className="font-sans antialiased">
       <header className="bg-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center relative">
           <h1 className="text-xl font-bold text-blue-700">SapphireVirtual</h1>
-
-         <button
-      onClick={() => router.push('/station/')}
-      className="text-black hover:text-blue-500"
-    >
-      Station
-    </button>
 
           <nav className="space-x-6 hidden md:flex">
             <Link
@@ -31,17 +19,23 @@ const router = useRouter();
           <button className="md:hidden text-blue-600 text-2xl">☰</button>
         </div>
       </header>
-
       <section className="bg-gray-50 py-16 text-center px-4">
         <h2 className="text-3xl sm:text-4xl md:text-5xl text-black font-semibold mb-6">
           All in One Smart, Secure Platform
         </h2>
-        <p className="max-w-2xl mx-auto text-gray-600 text-sm sm:text-base">
+        <p className="max-w-2xl mx-auto text-gray-600 text-sm sm:text-base mb-8">
           We make everyday expenses more accessible — from quick cash loans to
           flexible device financing and solar inverter solutions. They are all
           designed to keep you moving forward.
         </p>
+        <Link
+          href="/station"
+          className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-medium shadow-lg hover:bg-blue-700 transition"
+        >
+          View Our Products
+        </Link>
       </section>
+
 
       <section className="bg-gray-50 py-12">
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 px-4">
